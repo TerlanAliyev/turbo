@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(201, 196, 196);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header input{
+    padding:10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.addpage button {
+    width: 25%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(224, 59, 59);
+    color: white;
+    font-size: 20px;
+    display: block;
+}
+
+.items {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    margin-top: 150px;
+
+}
+
+.item {
+    width: 24%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(10, 10, 10, 0.13);
+    cursor: pointer;
+    margin: 10px;
+    position: relative;
+}
+.item i{
+    position: absolute;
+    bottom: 50px;
+    right:10px;
+    font-size: 20px;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.item * {
+    margin: 5px;
+}
+
+.after {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.973);
+    padding: 50px 10px;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.after .info {
+    width: 50%;
+    margin: auto;
+    padding: 20px 10px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.021);
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.after .main {
+    width: 80%;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.after i {
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+
+}
+
+.after .main img {
+    max-width: 60%;
+    max-height: 600px;
+    border-radius: 5px;
+}
+
+.after .otherss {
+    width: 50%;
+    padding: 5px 5px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.after .otherss img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+
+.after .btns {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.after .btns button {
+    padding: 20px 100px;
+    border-radius: 10px;
+
+}
+
+.add {
+    width: 15%;
+    display: inline;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(224, 59, 59);
+    color: white;
+    font-size: 20px;
+}
+
+.addpage {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    display: none;
+    top: 0;
+
+}
+
+.addpage .center {
+    width: 50%;
+    padding: 50px 10px;
+    background-color: rgba(255, 228, 196, 0.041);
+    border-radius: 10px;
+}
+
+.addpage .center input {
+    font-size: 20px;
+    width: 70%;
+    display: block;
+    margin: 10px auto;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 5px solid rgba(214, 150, 150, 0.082);
+
+}
+
+
+.center i {
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.header div{
+    position: relative;
+}
+.header div i{
+    font-size:30px;
+}
+.header div span{
+    background-color: red;
+    border-radius: 100%;
+    padding:5px 10px;
+    font-size: 10px;
+    position: absolute;
+    top: -13px;
+    right: -15px;
+}
